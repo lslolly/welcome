@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <!--<com.gfan.gm3.splash.AdvertView-->
+        <!--android:id="@+id/mAdvertView"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:visibility="gone"/>-->
+
+    <com.example.ls.mywww.SplashView
+        android:id="@+id/mSplashView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        ></com.example.ls.mywww.SplashView>
+    <TextView
+        android:id="@+id/gm3_home_startup_tv_skip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:padding="5dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="10dp"
+        android:text="点击跳过"
+        android:textColor="#fff"
+        android:textSize="15sp"
+        android:visibility="gone"/>
+</merge>
